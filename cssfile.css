@@ -1,0 +1,39 @@
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+}
+
+.logoImg img {
+    width: 150px;
+}
+
+
+.topNav {
+
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    text-align: center;
+}
+
+.topNav a {
+    margin-inline: 20px;
+    text-decoration: none;
+    color: rgb(205, 76, 40);
+}
+
+.topNav a:hover {
+    border-bottom: 3px solid rgb(205, 76, 40);
+}
+
+.topNav a.active {
+    border-bottom: 3px solid rgb(205, 76, 40);
+}
+
+
+.content {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+}
